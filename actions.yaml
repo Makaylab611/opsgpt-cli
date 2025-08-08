@@ -1,0 +1,11 @@
+
+actions:
+  restart_database:
+    desc: Restart Postgres service
+    command: "echo systemctl restart postgresql"
+  restart_batch:
+    desc: Restart batch scheduler
+    command: "echo systemctl restart autosys"
+  show_failed_jobs_last_night:
+    desc: Query failed jobs from sample logs
+    command: "python tools/query_logs.py --since 'yesterday 00:00' --until 'yesterday 23:59' --status FAIL"

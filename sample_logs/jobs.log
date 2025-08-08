@@ -1,0 +1,5 @@
+
+2025-08-01 00:10:00 job=NightlyETL status=OK
+2025-08-01 01:23:45 job=NightlyETL status=FAIL
+2025-08-01 02:15:00 job=Backups status=OK
+2025-08-02 00:12:11 job=Backups status=FAIL

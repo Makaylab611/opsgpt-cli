@@ -2,7 +2,7 @@
 actions:
   restart_database:
     desc: Restart Postgres service
-    command: "echo systemctl restart postgresql"
+    command: "echo systemctl restart postgresql"   # replace echo with real command
   restart_batch:
     desc: Restart batch scheduler
     command: "echo systemctl restart autosys"
